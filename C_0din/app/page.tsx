@@ -102,56 +102,47 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 max-w-4xl mx-auto px-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mt-12 w-full max-w-screen-2xl mx-auto px-8 md:px-12">
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2, duration: 0.5 }}
-                    className="p-6 rounded-xl border border-border bg-card/50 backdrop-blur-sm h-full"
+                    className="p-6 md:p-7 rounded-xl border border-border bg-card/50 backdrop-blur-sm w-full overflow-hidden"
                   >
-                    <div className="flex items-center gap-3 mb-4">
+                    <div className="flex flex-col items-center justify-center gap-3 text-center">
                       <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                         <Sparkles className="h-6 w-6 text-primary" />
                       </div>
-                      <h3 className="font-semibold text-base">Smart Comments</h3>
+                      <h3 className="font-semibold text-lg md:text-xl leading-snug text-center">Smart Comments</h3>
                     </div>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
-                      Get professional inline comments that explain every part of your code clearly and concisely.
-                    </p>
                   </motion.div>
 
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, duration: 0.5 }}
-                    className="p-6 rounded-xl border border-border bg-card/50 backdrop-blur-sm h-full"
+                    className="p-6 md:p-7 rounded-xl border border-border bg-card/50 backdrop-blur-sm w-full overflow-hidden"
                   >
-                    <div className="flex items-center gap-3 mb-4">
+                    <div className="flex flex-col items-center justify-center gap-3 text-center">
                       <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                         <Zap className="h-6 w-6 text-primary" />
                       </div>
-                      <h3 className="font-semibold text-base">Detailed Explanations</h3>
+                      <h3 className="font-semibold text-lg md:text-xl leading-snug text-center">Detailed Explanations</h3>
                     </div>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
-                      Understand complex algorithms and patterns with step-by-step breakdowns in plain English.
-                    </p>
                   </motion.div>
 
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
-                    className="p-6 rounded-xl border border-border bg-card/50 backdrop-blur-sm h-full"
+                    className="p-6 md:p-7 rounded-xl border border-border bg-card/50 backdrop-blur-sm w-full overflow-hidden"
                   >
-                    <div className="flex items-center gap-3 mb-4">
+                    <div className="flex flex-col items-center justify-center gap-3 text-center">
                       <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                         <Code className="h-6 w-6 text-primary" />
                       </div>
-                      <h3 className="font-semibold text-base">Multi-language Support</h3>
+                      <h3 className="font-semibold text-lg md:text-xl leading-snug text-center">Multi-language Support</h3>
                     </div>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
-                      Works with JavaScript, Python, and many other programming languages with proper syntax highlighting.
-                    </p>
                   </motion.div>
                 </div>
               </div>
